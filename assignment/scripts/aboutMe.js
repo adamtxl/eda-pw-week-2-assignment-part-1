@@ -26,7 +26,7 @@ console.log(introduction)
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-let adventurous = true;
+let adventurous = false;
 console.log(adventurous)
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
@@ -102,7 +102,7 @@ let mostPets;
 if (pets > friendsPets) {
   mostPets = pets;
 }
-else if (pets < friends) {
+else if (pets < friendsPets) {
   mostPets = friendsPets;
 }
 else if (pets === friendsPets){
@@ -134,10 +134,14 @@ switch(luckyNumber){
   
   console.log(luckyResult);
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
+// 12 - Create a variable called `result`. Create a conditional:
+//      if adventurous is true, set `result` to be "Adventures are great!", 
+//      if it's not true,  set `result` to be "How about we stay home?"
+//      Console log the value of `result`
 
+result = adventurous ? 'Adventures are great!' : 'How about we stay home?';
 
-
-
+console.log(result)
 
 
 
