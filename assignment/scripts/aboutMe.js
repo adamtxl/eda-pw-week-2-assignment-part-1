@@ -8,7 +8,7 @@ console.log(lastName)
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
-let fullName = firstName + ' ' + lastName
+let fullName = firstName + ' ' + lastName;
 console.log(fullName)
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
@@ -36,7 +36,7 @@ console.log(food)
 
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
-let pets = 3
+let pets = 3;
 console.log(pets)
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 1;
@@ -46,7 +46,7 @@ pets += 2
 console.log(pets)
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-let allowedPets = 5
+const allowedPets = 5;
 console.log(allowedPets)
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
