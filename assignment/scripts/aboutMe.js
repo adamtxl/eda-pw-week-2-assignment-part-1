@@ -13,7 +13,7 @@ console.log(fullName)
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
-let luckyNumber = 27;
+let luckyNumber = 2;
 console.log(luckyNumber)
 
 // 5 - Create a variable `introduction` and using the variables from above,
